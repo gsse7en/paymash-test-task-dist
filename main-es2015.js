@@ -666,9 +666,9 @@ let AppComponent = class AppComponent {
         this.title = 'paymash-test-task';
         const httpOptions = {
             headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpHeaders"]({
-            // 'Content-Type':  'text/plain',
-            // Charset: 'UTF-8',
-            // 'Access-Control-Allow-Origin': 'https://www.myapifilms.com'
+                'Content-Type': 'text/plain',
+                Charset: 'UTF-8',
+                'Access-Control-Allow-Origin': 'https://www.myapifilms.com'
             })
         };
         this.http.get('https://www.myapifilms.com/imdb/top?start=0&end=1999&token=644eb46a-2a85-49e9-aaf8-52fe9e7242dc&format=json&data=0', httpOptions)
